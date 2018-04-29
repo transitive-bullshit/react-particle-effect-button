@@ -70,7 +70,7 @@ I tried to keep the properties exactly the same as in the original codrops versi
 ## Related
 
 - [anime.js](http://animejs.com/) - Underlying animation engine.
-- [ParticleEffectsButtons](https://github.com/codrops/ParticleEffectsButtons/) - Original, non-React source this library is based on.
+- [ParticleEffectsButtons](https://github.com/codrops/ParticleEffectsButtons/) - Original source this library is based on.
 
 This module was bootstrapped with [create-react-library](https://github.com/transitive-bullshit/create-react-library).
 

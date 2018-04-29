@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-particle-effect-button.svg)](https://www.npmjs.com/package/react-particle-effect-button) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[![Demo](https://raw.githubusercontent.com/transitive-bullshit/react-particle-effect-button/master/media/demo.gif)](https://transitive-bullshit.github.io/react-particle-effect-button/)
+[![Demo](https://raw.githubusercontent.com/transitive-bullshit/react-particle-effect-button/master/example/demo.gif)](https://transitive-bullshit.github.io/react-particle-effect-button/)
 
 This library is a React port of an awesome [Codrops Article](https://tympanus.net/codrops/2018/04/25/particle-effects-for-buttons/) by [Luis Manuel](https://tympanus.net/codrops/author/luis/) (original [source](https://github.com/codrops/ParticleEffectsButtons/)).
 

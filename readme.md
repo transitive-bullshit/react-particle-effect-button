@@ -5,7 +5,7 @@
 [![NPM](https://img.shields.io/npm/v/react-particle-effect-button.svg)](https://www.npmjs.com/package/react-particle-effect-button) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
-This library is a React port of this Codrops [article](https://tympanus.net/codrops/2018/04/25/particle-effects-for-buttons/) by [Luis Manuel](https://tympanus.net/codrops/author/luis/) (original [source](https://github.com/codrops/ParticleEffectsButtons/)).
+This library is a React port of an awesome [Codrops Article](https://tympanus.net/codrops/2018/04/25/particle-effects-for-buttons/) by [Luis Manuel](https://tympanus.net/codrops/author/luis/) (original [source](https://github.com/codrops/ParticleEffectsButtons/)).
 
 ## Install
 
@@ -15,7 +15,7 @@ npm install --save react-particle-effect-button
 
 ## Usage
 
-Check out the [Demo](https://transitive-bullshit.github.io/react-particle-effect-button/) to get an idea of what's possible.
+Check out the [Demo](https://transitive-bullshit.github.io/react-particle-effect-button/) to see it in action.
 
 ```jsx
 import React, { Component } from 'react'

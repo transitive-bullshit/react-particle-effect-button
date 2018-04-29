@@ -76,4 +76,4 @@ This module was bootstrapped with [create-react-library](https://github.com/tran
 
 ## License
 
-MIT © [transitive-bullshit](https://github.com/transitive-bullshit)
+MIT © [Travis Fischer](https://github.com/transitive-bullshit)

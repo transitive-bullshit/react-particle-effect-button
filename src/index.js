@@ -55,6 +55,11 @@ export default class ParticleEffectButton extends Component {
     progress: 0
   }
 
+  _rect = {
+    width: 0,
+    height: 0
+  }
+
   componentWillReceiveProps(props) {
     if (props.hidden !== this.props.hidden) {
       const { status } = this.state
@@ -88,12 +93,14 @@ export default class ParticleEffectButton extends Component {
     const canvasStyles = { }
 
     if (status === 'hiding' || status === 'showing') {
-      const translateProp = this._isHorizontal() ? 'translateX' : 'translateY'
-      const translateValue = direction === 'left' || direction === 'top'
+      const prop = this._isHorizontal() ? 'translateX' : 'translateY'
+      const size = this._isHorizontal() ? this._rect.width : this._rect.height
+      const value = direction === 'left' || direction === 'top'
         ? progress : -progress
+      const px = Math.ceil(size * value / 100)
 
-      wrapperStyles.transform = `${translateProp}(${translateValue}%)`
-      contentStyles.transform = `${translateProp}(${-translateValue}%)`
+      wrapperStyles.transform = `${prop}(${px}px)`
+      contentStyles.transform = `${prop}(${-px}px)`
     } else if (status === 'hidden') {
       wrapperStyles.visibility = 'hidden'
       canvasStyles.visibility = 'hidden'
@@ -168,7 +175,6 @@ export default class ParticleEffectButton extends Component {
       begin: onBegin,
       update: (anim) => {
         const value = anim.animatables[0].target.value
-
         setTimeout(() => {
           this.setState({ progress: value })
         })

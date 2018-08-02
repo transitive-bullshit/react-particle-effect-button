@@ -28,7 +28,7 @@ export default [
     }
   },
   {
-    background: 'linear-gradient(120deg,#152bc3,#5366d8)',
+    background: 'linear-gradient(to top, #d299c2 0%, #fef9d7 100%)',
     text: 'Delete',
     buttonStyles: {
       background: '#0e19a2',
@@ -46,7 +46,7 @@ export default [
     }
   },
   {
-    background: 'linear-gradient(120deg,#ecef3a,#ec6b9b)',
+    background: 'linear-gradient(to top, #fddb92 0%, #d1fdff 100%)',
     text: 'Submit',
     buttonStyles: {
       background: 'transparent',
@@ -64,7 +64,7 @@ export default [
     }
   },
   {
-    background: 'linear-gradient(120deg,#baedff,#07a2da)',
+    background: 'linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%)',
     text: 'Refresh',
     buttonStyles: {
       background: '#003ff1',

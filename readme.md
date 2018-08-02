@@ -2,7 +2,7 @@
 
 > Bursting particle effect buttons for React.
 
-[![NPM](https://img.shields.io/npm/v/react-particle-effect-button.svg)](https://www.npmjs.com/package/react-particle-effect-button) [![Build Status](https://travis-ci.org/transitive-bullshit/react-particle-effect-button.svg?branch=master)](https://travis-ci.org/transitive-bullshit/react-particle-effect-button) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-particle-effect-button.svg)](https://www.npmjs.com/package/react-particle-effect-button) [![Build Status](https://travis-ci.com/transitive-bullshit/react-particle-effect-button.svg?branch=master)](https://travis-ci.com/transitive-bullshit/react-particle-effect-button) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 [![Demo](https://raw.githubusercontent.com/transitive-bullshit/react-particle-effect-button/master/example/demo.gif)](https://transitive-bullshit.github.io/react-particle-effect-button/)
 

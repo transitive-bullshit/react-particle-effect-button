@@ -2,7 +2,6 @@ export default [
   {
     background: 'linear-gradient(120deg, #a8edea 0%, #fed6e3 100%)',
     text: 'Send',
-    duration: 2000,
     buttonStyles: {
       background: '#121019',
       color: '#fff'

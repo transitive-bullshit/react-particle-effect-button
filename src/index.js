@@ -284,6 +284,8 @@ export default class ParticleEffectButton extends Component {
       speed: _speed,
       size: _size
     })
+
+    // console.log(this._particles[this._particles.length - 1])
   }
 
   _updateParticles() {

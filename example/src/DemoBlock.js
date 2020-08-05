@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './DemoBlock.css'
 import PropTypes from 'prop-types'
 
 import ParticleEffectButton from 'react-particle-effect-button'
@@ -16,7 +17,7 @@ export default class DemoBlock extends Component {
     animating: false
   }
 
-  render () {
+  render() {
     const {
       background,
       text,
@@ -31,33 +32,12 @@ export default class DemoBlock extends Component {
 
     return (
       <div
-        style={{
-          position: 'relative',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          width: '46vmax',
-          height: '46vmax',
-          margin: '2vmax 2vmax 0 0',
-          background
-        }}
+        className="buttons-div-container"
+        style={{ background }}
       >
         {hidden && !animating && (
           <button
-            style={{
-              position: 'absolute',
-              top: '1em',
-              right: '1em',
-              background: '#32bafa',
-              color: '#fff',
-              border: '0',
-              borderRadius: 4,
-              fontSize: '1em',
-              padding: '0.7em 1.2em',
-              cursor: 'pointer',
-              outline: 'none'
-            }}
+            className="animation-reset-button"
             onClick={this._onToggle}
           >
             Reset
@@ -70,16 +50,8 @@ export default class DemoBlock extends Component {
           {...buttonOptions}
         >
           <button
-            style={{
-              background: '#121019',
-              color: '#fff',
-              padding: '1.5rem 3rem',
-              border: '0',
-              borderRadius: 5,
-              cursor: 'pointer',
-              fontSize: '1.2em',
-              ...buttonStyles
-            }}
+            className="particle-effect-button"
+            style={{ ...buttonStyles }}
             onClick={this._onToggle}
           >
             {text}
